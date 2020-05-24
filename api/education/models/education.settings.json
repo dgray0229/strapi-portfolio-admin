@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educations",
+  "info": {
+    "name": "Education"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "degree": {
+      "type": "string"
+    },
+    "school": {
+      "type": "string"
+    },
+    "program": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    }
+  }
+}
